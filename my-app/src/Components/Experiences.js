@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Projects({title,text,desc}) {
+function Experiences({title,text,desc}) {
     return(
-        <div className="Projects">
-            <div className="project-list">
+        <div className="Experiences">
+            <div className="experience-list">
             <h2>{title}</h2>
             <h6>{text}</h6>
             <p>{desc}</p>
@@ -12,4 +12,4 @@ function Projects({title,text,desc}) {
         </div>
     )
 }
-export default Projects;
+export default Experiences;

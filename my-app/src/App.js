@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import  {Switch, Route} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
-import ProjectsPage from './Pages/ProjectsPage';
+import ExperiencesPage from './Pages/ExperiencesPage';
 import  ContactPage from './Pages/ContactPage';
 import  SkillsPage from './Pages/SkillsPage';
 
@@ -15,18 +15,19 @@ function App() {
     </div>
     <div className="main-content">
      <div className="content">
+    
       <Switch>
-        <Route path="/" exact>
+        <Route path="/" exact> 
         <HomePage />
-        </Route>
+         </Route>
         <Route path="/about" exact>
         <AboutPage />
         </Route>
         <Route path="/skills" exact>
         <SkillsPage />
         </Route>
-        <Route path="/projects" exact>
-        <ProjectsPage />
+        <Route path="/experiences" exact>
+        <ExperiencesPage />
         </Route>
         <Route path="/contact" exact>
         < ContactPage />

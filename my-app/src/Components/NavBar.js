@@ -27,8 +27,8 @@ import {NavLink} from 'react-router-dom';
                 </NavLink>
             </li>
           <li className="nav-item">
-            <NavLink to="/projects" exact activeClassName="active">
-               Projects
+            <NavLink to="/experiences" exact activeClassName="active">
+               Experiences
             </NavLink>
           </li>
          <li className="nav-item">
